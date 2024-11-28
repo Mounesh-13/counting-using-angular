@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #1e3a5f, #152238);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Counter Container */
+.counter-container {
+  background: #2a4d69;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.counter-container h1 {
+  font-size: 2.5rem;
+  color: #ffd700; /* Gold color */
+  margin-bottom: 20px;
+}
+
+.counter-display {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+/* Buttons */
+.counter-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  background: #ffd700;
+  color: #1e3a5f;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #f7c500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.increment {
+  background: #4caf50; /* Green for Increment */
+}
+
+.increment:hover {
+  background: #45a049;
+}
+
+.decrement {
+  background: #f44336; /* Red for Decrement */
+}
+
+.decrement:hover {
+  background: #e53935;
+}

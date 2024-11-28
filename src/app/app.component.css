@@ -1,0 +1,7 @@
+/* Styles specific to app.component */
+/* Add a transition effect to the entire app */
+:host {
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
